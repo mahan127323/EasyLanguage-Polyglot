@@ -1,0 +1,5 @@
+{
+  "comment": "POLYGLOT third-party dictionary TEMPLATE. Copy this file into your project folder {Project}/Config/Polyglot (any name like MyPlugin.json), then fill entries to translate a plugin/asset pack yourself. 'source' must match the English shown on screen exactly; 'translation' replaces it. Leave ns/key empty for plain visible text; fill them only when you know the FText namespace/key (the picker gives them to you). Culture defaults to the top-level 'culture'. Entries in project files override these built-ins.",
+  "culture": "zh-Hans",
+  "entries": []
+}

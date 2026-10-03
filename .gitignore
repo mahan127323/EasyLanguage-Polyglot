@@ -1,0 +1,29 @@
+# UE 插件构建产物（BuildPlugin 可重建）
+Binaries/
+Intermediate/
+Saved/
+Build/
+
+# 临时构建中间文件
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+
+# 编辑器 / 系统
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.DS_Store
+Thumbs.db
+desktop.ini

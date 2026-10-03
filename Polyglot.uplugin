@@ -1,0 +1,54 @@
+{
+	"FileVersion": 3,
+	"Version": 5,
+	"VersionName": "1.0.4",
+	"EngineVersion": "5.8",
+	"FriendlyName": "Easy language",
+	"Description": "Easy language: a safe, zero-modification editor localization plugin for UE 5.7/5.8. Switch the whole editor UI (engine + any plugins) between English / Chinese / any language on the fly without restarting. Patch untranslated third-party plugins with a visual text picker and your own dictionaries. Nothing in the engine or your assets is ever modified; it is excluded from packaging automatically (Editor-only).",
+	"Category": "Localization",
+	"CreatedBy": "BaiMaoMaLou",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"Icon": "Resources/Icon128.png",
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "PolyglotCore",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "PolyglotUI",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "PolyglotAdapters",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "PolyglotCommandlet",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": []
+}
